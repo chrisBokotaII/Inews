@@ -104,7 +104,7 @@ const Footer = () => {
           Inews
         </h1>
         <p className="text-gray-500 font-sevillana">
-          Copyright © 2023 Inews. All Rights Reserved.
+          Copyright © {new Date().getFullYear()} Inews. All Rights Reserved.
         </p>
       </div>
     </footer>
