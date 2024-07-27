@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montagu+Slab:opsz,wght@16..144,100;16..144,200;16..144,400;16..144,700&family=Poppins:ital,wght@0,100;0,600;0,700;1,500&family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montagu+Slab:opsz,wght@16..144,100;16..144,200;16..144,400;16..144,700&family=Poppins:ital,wght@0,100;0,600;0,700;1,500&family=Rubik+Mono+One&family=Sevillana&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0c0c0c;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f0eded;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
